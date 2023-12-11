@@ -10,7 +10,8 @@
     "types": ["node"],
     "allowJs": true,
     "esModuleInterop": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["src/**/*", "index.d.ts"],
   "exclude": ["node_modules"]
